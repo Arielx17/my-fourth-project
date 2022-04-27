@@ -1,0 +1,336 @@
+﻿.Album_CoverThumbnail {
+    position: relative;
+    left: 5.21%;
+    z-index: 2;
+    top: 150px;
+}
+
+.P_Title {
+    position: absolute;
+    top: 205px;
+    left: 720px;
+    z-index: 2;
+    width: 780px;
+    height: auto;
+    font-size: 45px;
+    font-family: Glow Sans SC;
+    font-weight: 400;
+    line-height: 16px;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.P_Title_small {
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    width: 980px;
+    height: auto;
+    font-size: 50px;
+    font-family: Glow Sans SC;
+    font-weight: 400;
+    line-height: 16px;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.icon_type {
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    /*    top: -310px;
+    left: 400px;*/
+}
+
+.P_Type {
+    width: 400px;
+    position: relative;
+    /*这里的left、top控制的是icon和文字的相对距离*/
+    top: 15px;
+    left: 15px;
+    /*我也不知道为什么*/
+    z-index: 2;
+    font-size: 45px;
+    font-family: Glow Sans SC;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+    float: right;
+}
+
+.Frame_AlumbType {
+    position: relative;
+    background: red;
+}
+
+.P_AlbumIntro {
+    position: absolute;
+    left: 850px;
+    top: 420px;
+    width: 1000px;
+    height: 357px;
+    font-size: 35px;
+    font-family: Glow Sans SC;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+}
+
+.Buttom_Summary {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    left: 5.21%;
+    top: 950px;
+}
+
+.icon_Singer {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 70px;
+}
+
+.SingerName {
+    font-family: "Glow Sans SC";
+    font-size: 45px;
+    color: rgb(225,225,225,0.75);
+    position: relative;
+    left: 100px;
+}
+
+#Actional_Group {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+    #Actional_Group li {
+        height: 64px;
+        width: 218px;
+        border-radius: 5px;
+        /*background-color: rgb(98,0,238,0.5);*/
+        background-color: rgb(255,255,255,0.5);
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+        #Actional_Group li img {
+            position: absolute;
+            top: 50%;
+            transform: translate(60%,-50%);
+        }
+
+        #Actional_Group li p {
+            color: white;
+            font-size: 28px;
+            position: absolute;
+            top: 50%;
+            transform: translate(65%,-50%);
+            cursor: pointer;
+        }
+
+    #Actional_Group > li:first-child {
+        background-color: rgb(98,0,238,0.5);
+    }
+
+#Actional_Group {
+    position: relative;
+    top: 50px;
+    left: -40px;
+    padding: 0px;
+}
+
+/*播放列表的所有属性*/
+.PlayList {
+    height: 975px;
+    width: 1725px;
+    /* background-color: antiquewhite;*/
+    position: relative;
+    top: 80px;
+    color: rgb(225,225,225,0.75);
+}
+#PlayList {
+    height: 975px;
+    width: 1725px;
+    /* background-color: antiquewhite;*/
+    position: relative;
+    top: 80px;
+    color: rgb(225,225,225,0.75);
+}
+
+
+
+/*歌手信息*/
+.Singer_ThumbNail {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 150px;
+    float: left;
+}
+
+.CandyBar {
+    width: auto;
+    height: auto;
+    position: relative;
+    transform: translate(28%,-59%);
+    padding: 0;
+}
+
+.Singer_intro {
+    position: relative;
+    top: -260px;
+    left: 390px;
+    height: 440px;
+    width: 1300px;
+    color: red;
+    z-index: 1;
+    float: left;
+    font-size: 35px;
+    font-family: "細明體-ExtB";
+    line-height: 60px;
+    color: rgb(0,0,0,0.6);
+    background-image: url("../PIC/Album_Intro/BG_CandyBar.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.Singer_ThumbNail2 {
+    position: relative;
+    z-index: 4;
+    left: 870px;
+    top: -230px
+}
+
+.Album_CoverThumbnail_bottom {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: -100px;
+}
+
+.Icon_price {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: auto;
+    position: relative;
+    top: -50px;
+    left: 0px;
+    color: #995DFF;
+    font-size: 70px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+    .Icon_price img {
+        width: auto;
+        height: auto;
+    }
+
+    .Icon_price p {
+        font-size: 70px;
+        color: #995DFF;
+        position: relative;
+        left: 50px;
+    }
+
+        .Icon_price p:nth-child(4) {
+            left: 250px;
+        }
+/*奇数行*/
+.PlayList tr:nth-child(odd) {
+    background: rgb(126,57,251,0.4);
+    border-left: #eeeeee solid 1px;
+    border-top: #eeeeee solid 1px;
+    border-collapse: collapse;
+}
+
+
+td {
+    border-collapse: collapse;
+    border: none;
+}
+
+tr {
+    color: white;
+    border-collapse: collapse;
+    font-size: 25px;
+    height: 75px;
+    text-align: center;
+}
+
+    tr:first-child {
+        text-align: center;
+    }
+
+    tr:not(:first-child) td:nth-child(2) {
+        text-indent: 2em;
+        text-align: left;
+    }
+
+#PlayList tr:not(:first-child) {
+    color: rgb(255,255,255,0.75);
+    font-size: 25px;
+}
+
+td:last-child {
+    vertical-align: middle;
+}
+
+.PlayList_Group button {
+    display: flex;
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    justify-content: center; /*水平居中对齐*/
+    align-items: center;
+}
+
+.PlayList_Group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.Btn_Group {
+    position: relative;
+    left: 1000px;
+    top: -700px;
+    width: 600px;
+    height: 20px;
+}
+
+.Btn_Box {
+    width: 430px;
+    height: 130px;
+    background-color: rgb(90,0,238,0.59);
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+    .Btn_Box img {
+        position: relative;
+        left: 30px;
+    }
+
+    .Btn_Box p {
+        font-size: 59px;
+        color: rgb(255,255,255,0.75);
+        position: relative;
+        left: 50px;
+        top: -5px;
+    }

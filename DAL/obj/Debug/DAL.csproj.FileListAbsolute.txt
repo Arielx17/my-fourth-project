@@ -1,0 +1,11 @@
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\bin\Debug\DAL.dll
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\bin\Debug\DAL.pdb
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\obj\Debug\DAL.dll
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\obj\Debug\DAL.pdb
+F:\大三下\Web\T_Retro_data\Retro_\DAL\bin\Debug\DAL.dll
+F:\大三下\Web\T_Retro_data\Retro_\DAL\bin\Debug\DAL.pdb
+F:\大三下\Web\T_Retro_data\Retro_\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\大三下\Web\T_Retro_data\Retro_\DAL\obj\Debug\DAL.dll
+F:\大三下\Web\T_Retro_data\Retro_\DAL\obj\Debug\DAL.pdb
+G:\数媒\大三下\web开发项目实践\Retro_\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

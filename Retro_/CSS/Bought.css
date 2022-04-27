@@ -1,0 +1,191 @@
+﻿body {
+}
+
+.Container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.BoughtAlbum_List {
+    position: relative;
+    margin-left: 280px;
+    top: 40px;
+    
+  
+}
+
+    .BoughtAlbum_List ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+        .BoughtAlbum_List ul:not(:first-child) {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top:-20px;
+       
+    }
+
+        .BoughtAlbum_List ul li {
+            position: relative;
+            margin-left: 55px;         
+        }
+      
+
+.Album_ThumbNail {
+    position: relative;
+    top: 55px;
+    left: 350px;
+}
+
+.ListName {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -190px;
+    left: 570px;
+}
+
+.ActBtn_Group {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 570px;
+    top: -170px;
+}
+
+    .ActBtn_Group button {
+        width: 122px;
+        height: 36px;
+        margin-right: 20px;
+    }
+
+        .ActBtn_Group button:first-child {
+            background: none;
+            border: none;
+            background-image: url('../PIC/BoughtSingle/CandyBar_Purple.png');
+        }
+
+        .ActBtn_Group button:nth-child(2) {
+            background: none;
+            border: none;
+            background-image: url('../PIC/BoughtSingle/CandyBar_Gray.png');
+        }
+
+.ListIntro {
+    position: relative;
+    left: 570px;
+    top: -140px;
+    color: white;
+    font-size: 20px;
+}
+
+.Changing_Group {
+    float: right;
+    position: relative;
+    left: 570px;
+    top: -300px;
+}
+
+.Search {
+    position: relative;
+    top:120px;
+    left: -1000px;
+    width: 192px;
+    height: 38px;
+    background-image: url('../PIC/BoughtSingle/SearchBox.png');
+    z-index: 5;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-indent: 1em;
+   /* transform: scale(1,1);*/
+}
+#Lp {
+    background-image: url('../PIC/BoughtSingle/Type_Half.png');
+}
+#HQ {
+    background-image: url('../PIC/BoughtSingle/Type_Half.png');
+}
+.Type {
+    position: relative;
+    left: 2250px;
+    top: -190px;
+    height: 36px;
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Lp {
+    height: 36px;
+    width: 66px;
+    background-image: url('../PIC/BoughtSingle/Type_Half.png');
+    border: none;
+    background-color: none;
+    transform: scale(1.5,1.5);
+    background-color: black;
+    color: rgb(255,255,255,1);
+    font-size: 20px;
+}
+
+#HQ {
+    position: absolute;
+    left: 99px;
+    height: 36px;
+    /*width: 66px;*/
+    background-image: url('../PIC/BoughtSingle/Type_Half_Purple.png');
+    border: none;
+    background-color: none;
+    transform: scale(1.5,1.5);
+    background-color: black;
+    color: rgb(255,255,255,1);
+    font-size: 20px;
+}
+
+.Songlist {
+    float: left;
+    /*    margin-top: 30px;
+    margin-left: 300px;*/
+    border-spacing:0;
+    margin-top: -160px;
+    margin-left: 350px;
+    color: #CBAFFD;
+    font-size: 20px;
+}
+
+#Songlist {
+    float: left;
+    /*    margin-top: 30px;
+    margin-left: 300px;*/
+    border-spacing: 0;
+    margin-top: -160px;
+    margin-left: 350px;
+    color: #CBAFFD;
+    font-size: 20px;
+}
+
+#Songlist :nth-child(odd) {
+    background: rgb(126,57,251,0.4);
+}
+
+button {
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+}
+td:last-child{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100px;
+}
+tr:not(:first-child)
+{
+    color:rgb(255,255,255,0.75);
+
+}

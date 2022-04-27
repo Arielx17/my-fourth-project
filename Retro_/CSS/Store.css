@@ -1,0 +1,221 @@
+﻿
+.welcom {
+    height: auto;
+    width: auto;
+    font-size: 70px;
+    position: fixed;
+    z-index: 2;
+    top: 210px;
+    left: 135px;
+    color: #995DFF;
+    font-family: "Glow Sans SC";
+}
+
+.buywhat {
+    height: auto;
+    width: auto;
+    font-size: 70px;
+    position: fixed;
+    z-index: 2;
+    top: 350px;
+    left: 135px;
+    color: #995DFF;
+    font-family: "Glow Sans SC";
+}
+
+.search {
+    height: auto;
+    width: auto;
+    position: fixed;
+    z-index: 2;
+    top: 480px;
+    left: 135px;
+}
+
+.btn_search {
+    width: auto;
+    height: auto;
+    z-index: 3;
+    position: relative;
+    top: 532px;
+    left: 200px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    list-style: none;
+}
+
+#Search_ul li {
+    width: 128px;
+    height: 40px;
+    flex-direction: column;
+    /*background: #5f9ea0;*/
+    background-image: url('../PIC/store-hot.png');
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(225,225,225,0.75);
+    line-height: 40px;
+}
+
+#Sidebar_ul {
+    top: 150px;
+    height: 352px;
+    flex-direction: column;
+    border: solid 2px black;
+    position: fixed;
+    z-index: 2;
+    padding-right: 40px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    line-height: 29px;
+    background-image: url(../PIC/Sidebar.png);
+    color: white;
+}
+
+    #Sidebar_ul li {
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+
+    #Sidebar_ul img {
+        /* background: #995DFF;*/
+        height: auto;
+        width: auto;
+        float: left;
+        position: relative;
+        right: 20px;
+    }
+
+.Store-list {
+    flex-direction: row;
+    width: 1485px;
+    position: relative;
+    left: 330px;
+    padding-bottom: 130px;
+}
+
+    .Store-list li {
+        height: 598px;
+        width: auto;
+    }
+
+.cover_img {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.Store-list h1 {
+    color: #212121;
+    font-size: 35px;
+    line-height: 28px;
+    font-family: "Segoe UI Symbol";
+    position: relative;
+    left: 34px;
+    text-align: left;
+}
+
+.Store-list h2 {
+    color: #939393;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-family: "Segoe UI Light";
+    position: relative;
+    left: 34px;
+    top: 15px;
+}
+
+.Store-list h3 {
+    color: #995DFF;
+    font-size: 27px;
+    line-height: 27px;
+    font-family: "Segoe UI Symbol";
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    /*background: cadetblue;*/
+}
+
+.Store-list h4 {
+    color: #995DFF;
+    font-size: 19px;
+    line-height: 27px;
+    font-family: "Segoe UI Symbol";
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    /*background: cadetblue;*/
+}
+
+.icon_Price {
+    position: relative;
+    left: 34px;
+    top: 50px;
+    height: 23px;
+    width: 32px;
+    /*border:solid 2px chartreuse;*/
+}
+
+.icon_Type {
+    position: relative;
+    left: 34px;
+    top: 40px;
+    height: 23px;
+    width: 32px;
+    /*border:solid 2px chartreuse;*/
+}
+
+.icon_Group {
+    width: auto;
+    height: 60px;
+    position: relative;
+    top: 18px;
+    left: 180px;
+}
+
+    .icon_Group ul li {
+        width: auto;
+        height: auto;
+        left: -40px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+.more {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    opacity: 0;
+}
+
+    .more:hover {
+        opacity:60%;
+    }
+
+.btn_BackToTop {
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 92%;
+    top: 82%;
+}
+
+
+/*Goods*/

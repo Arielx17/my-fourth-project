@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeadAFoot.master.cs" Inherits="LP.HeadAFoot" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="../CSS/headAfoot.css" type="text/css" />
+    <link rel="stylesheet" href="../CSS/main.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head_script" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body style="width: 100%; margin: 0px">
+    <form runat="server">
+        <div id="head">
+           <a href="../ASPX/Main.aspx" style="text-decoration:none"> <p class="title">RETRO</p> </a>
+            <div class="list-all">
+                <img src="../PIC/Master/播放歌单 Copy@3x.png" class="bofang" />
+
+                <%--播放列表--%>
+                <div class="list">
+                    <<asp:DataList ID="dl_songlist" runat="server">
+                        <ItemTemplate>
+                            <p style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap" class="list-song"><%# Eval("SName") %></p>
+                        </ItemTemplate>
+                    </asp:DataList>
+                    <%--<p class="list-song">1&nbsp&nbspBabyShark</p>
+                    <p class="list-song">2&nbsp&nbspLemon</p>
+                    <p class="list-song">3&nbsp&nbspI Don't Care</p>
+                    <p class="list-song">4&nbsp&nbspThink of Me</p>
+                    <p class="list-song">5&nbsp&nbspMerryChris...</p>
+                    <p class="list-song">6&nbsp&nbspCircles</p>
+                    <p class="list-song">7&nbsp&nbspLevitating</p>--%>
+                </div>
+
+            </div>
+
+            <div class="menu">
+                <a href="../ASPX/MyBought_Ajax.aspx"><img src="../PIC/Master/ze-ascending@3x.png" class="menu-pic" /></a>
+                <a href="../ASPX/ShopCar.aspx"><img src="../PIC/Master/购物车%20Copy@3x.png" class="menu-pic" /></a>
+                <a href="../ASPX/M_Store_Search.aspx"><img src="../PIC/Master/商店%20Copy@3x.png" class="menu-pic" /></a>
+                <img src="../PIC/Master/我的%20Copy@3x.png" class="menu-pic" />
+                <img src="../PIC/Master/消息%20Copy@3x.png" class="menu-pic" />
+
+            </div>
+
+            <div id="search">
+                <asp:TextBox ID="tb_search" runat="server" BackColor="Transparent" BorderColor="#9999FF" BorderStyle="None" CssClass="tbsearch" BorderBrush="#ffffff"></asp:TextBox>
+                <p class="z1">今天想听首什么？</p>
+            </div>
+        </div>
+        <div id="middle">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="bottom"></div>
+    </form>
+
+
+</body>
+</html>

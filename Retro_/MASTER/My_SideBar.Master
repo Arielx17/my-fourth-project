@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="My_SideBar.master.cs" Inherits="Retro_.MASTER.My_SideBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../CSS/MySide.css" />
+
+</head>
+<body class="fullHeight">
+    <div class='sidebar fullHeight'>sidebar</div>
+    <div class="controller">
+        <div>
+            <button onclick="fadeIn()">淡进</button>
+            <button onclick="fadeOut()">淡出</button>
+        </div>
+        <div>
+            <button onclick="fadeInUp()">向上淡进</button>
+            <button onclick="fadeOutLeft()">向左淡出</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var sidebarEl = document.querySelector(".sidebar");
+    function fadeIn(e) {
+        sidebarEl.className = 'sidebar fullHeight';
+        sidebarEl.style.top = '0px';
+        sidebarEl.style.left = '0px';
+        sidebarEl.classList.add('move_right');
+    }
+    function fadeOut(e) {
+        sidebarEl.className = 'sidebar fullHeight';
+        sidebarEl.style.left = '120px';
+        sidebarEl.classList.add('move_left');
+    }
+    function fadeInUp(e) {
+        sidebarEl.className = 'sidebar fullHeight';
+        sidebarEl.style.top = '250px';
+        sidebarEl.style.left = '120px';
+        sidebarEl.classList.add('move_up');
+    }
+    function fadeOutLeft(e) {
+        sidebarEl.className = 'sidebar fullHeight';
+        sidebarEl.style.top = '0px';
+        sidebarEl.style.left = '120px';
+        sidebarEl.classList.add('move_left');
+    }
+</script>

@@ -1,0 +1,135 @@
+﻿.banner{
+    position:absolute;
+    top:0px;
+}
+
+.division{
+    position:relative;
+    top:-5px;
+}
+
+.new p {
+    width: 100%;
+    height: 94px;
+    font-size: 70px;
+    font-family: Glow Sans SC;
+    line-height:94px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin:0px;
+    text-align:center;
+    position:relative;
+    top:-47px;
+}
+
+.new {
+    width:100%;
+    position:absolute;
+    top:1132px;
+}
+
+.new img{
+    width:65px;
+    height:66px;
+    position:relative;
+    left:40.4%;
+}
+
+.week p {
+    width: 100%;
+    height: 94px;
+    font-size: 70px;
+    font-family: Glow Sans SC;
+    line-height: 94px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: -47px;
+}
+
+.week {
+width: 100%;
+position: absolute;
+top: 1132px;
+}
+
+.week img {
+    width: 65px;
+    height: 66px;
+    position: relative;
+    left: 42.5%;
+}
+
+.fourE{
+    padding-left:6.3%;
+    padding-top:120px;
+    padding-bottom:163px;
+}
+
+.fourEdiv {
+    width: 345px;
+    height: 345px;
+    display: inline-block;
+    margin-right: 4.84%;
+    position: relative;
+}
+
+.E {
+    width: 350px;
+    height: 350px;
+}
+
+.love{
+    width:21px;
+    height:21px;
+    position:absolute;
+    top:276px;
+    left:23px;
+}
+.shop {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 276px;
+    left: 53px;
+}
+
+.article{
+    height:351px;
+    position:relative;
+    margin-top:93px;
+    background:#000;
+}
+
+.article img {
+    position: absolute;
+    width: 423px;
+    height: 35px;
+    left: 39%;
+    top:37px;
+    z-index: 0;
+}
+.article p {
+    position:absolute;
+    width: 100%;
+    height: 94px;
+    line-height: 94px;
+    font-size: 70px;
+    font-family: Glow Sans SC;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+    margin:0px
+}
+
+.articlelist img{
+    position:relative;
+    width: 1275px;
+    height: 868px;
+    opacity: 1;
+    left:15.63%;
+}
+
